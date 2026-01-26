@@ -1,0 +1,31 @@
+{
+  "name": "antora-samples-template",
+  "version": "1.0.0",
+  "description": "A barebones Antora template with sample pages demonstrating all AsciiDoc features",
+  "keywords": [
+    "antora",
+    "asciidoc",
+    "documentation",
+    "template",
+    "samples"
+  ],
+  "homepage": "https://github.com/the-dev-center/antora-samples-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-dev-center/antora-samples-template.git"
+  },
+  "license": "MIT",
+  "author": "The Dev Center",
+  "scripts": {
+    "build": "antora antora-playbook.yml",
+    "preview": "antora --fetch antora-playbook.yml",
+    "serve": "pnpm build && npx http-server build/site -p 8080 -o",
+    "clean": "rimraf build .cache"
+  },
+  "devDependencies": {
+    "antora": "^3.1.14",
+    "http-server": "^14.1.1",
+    "rimraf": "^6.0.1"
+  },
+  "packageManager": "pnpm@10.28.1"
+}

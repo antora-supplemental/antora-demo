@@ -1,0 +1,133 @@
+= Antora Samples Template
+:toc: macro
+:toc-title: Contents
+:toclevels: 2
+:icons: font
+:url-antora: https://antora.org
+:url-asciidoc: https://asciidoc.org
+
+A barebones Antora template with sample pages demonstrating all AsciiDoc features.
+
+image::https://img.shields.io/badge/license-MIT-blue.svg[License: MIT]
+image::https://img.shields.io/badge/antora-3.x-purple.svg[Antora 3.x]
+
+toc::[]
+
+== Overview
+
+This template provides a complete set of sample AsciiDoc pages covering every major documentation feature.
+Use it as:
+
+* A reference for AsciiDoc syntax in Antora
+* A starting point for new documentation projects
+* A test suite for custom themes
+
+== Features Demonstrated
+
+[cols="1,2"]
+|===
+| Page | Features
+
+| Typography
+| Headings, inline formatting, links, paragraphs, footnotes
+
+| Code Blocks
+| Syntax highlighting, callouts, line numbers, titles
+
+| Admonitions
+| NOTE, TIP, IMPORTANT, WARNING, CAUTION blocks
+
+| Tables
+| Headers, footers, alignment, nested content, CSV
+
+| Blocks & Quotes
+| Sidebars, examples, quotes, verses, collapsible blocks
+
+| Lists
+| Ordered, unordered, description, checklists, nested
+
+| Images & Media
+| Block images, alignment, captions, icons
+|===
+
+== Quick Start
+
+=== Clone and Build
+
+[source,bash]
+----
+git clone https://github.com/the-dev-center/antora-samples-template.git
+cd antora-samples-template
+pnpm install
+pnpm build
+----
+
+=== Serve Locally
+
+[source,bash]
+----
+pnpm serve
+----
+
+This builds the site and opens it in your browser at http://localhost:8080.
+
+== Project Structure
+
+[source]
+----
+antora-samples-template/
+├── docs/
+│   ├── antora.yml              # Component descriptor
+│   └── modules/ROOT/
+│       ├── nav.adoc            # Navigation
+│       └── pages/              # Sample pages
+│           ├── index.adoc
+│           ├── typography.adoc
+│           ├── code-blocks.adoc
+│           ├── admonitions.adoc
+│           ├── tables.adoc
+│           ├── blocks.adoc
+│           ├── lists.adoc
+│           └── images.adoc
+├── antora-playbook.yml         # Antora playbook
+├── package.json
+└── README.adoc
+----
+
+== Using This Template
+
+=== As a Starting Point
+
+. Fork or clone this repository
+. Modify `docs/antora.yml` with your component name
+. Update `antora-playbook.yml` with your site title
+. Replace sample content with your own documentation
+
+=== For Theme Testing
+
+. Clone this repository
+. Add your theme's supplemental UI:
++
+[source,yaml]
+----
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./path/to/your/supplemental-ui
+----
+. Build and verify all elements are styled correctly
+
+== Requirements
+
+* Node.js 18+
+* pnpm (recommended) or npm
+
+== License
+
+This project is licensed under the MIT License.
+
+== Resources
+
+* {url-antora}[Antora Documentation]
+* {url-asciidoc}[AsciiDoc Language Documentation]

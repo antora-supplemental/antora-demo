@@ -1,0 +1,25 @@
+# Antora Playbook for Samples Template
+# A barebones Antora site demonstrating all AsciiDoc features
+
+site:
+  title: Antora Samples Template
+  start_page: samples::index.adoc
+
+content:
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: docs
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+output:
+  dir: ./build/site
+
+asciidoc:
+  attributes:
+    source-highlighter: highlight.js
+    icons: font
