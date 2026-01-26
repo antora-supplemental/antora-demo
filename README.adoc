@@ -56,8 +56,8 @@ Use it as:
 
 [source,bash]
 ----
-git clone https://github.com/the-dev-center/antora-samples-template.git
-cd antora-samples-template
+git clone https://github.com/the-dev-center/antora-demo-template.git
+cd antora-demo-template
 pnpm install
 pnpm build
 ----
@@ -75,7 +75,7 @@ This builds the site and opens it in your browser at http://localhost:8080.
 
 [source]
 ----
-antora-samples-template/
+antora-demo-template/
 ├── docs/
 │   ├── antora.yml              # Component descriptor
 │   └── modules/ROOT/

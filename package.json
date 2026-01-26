@@ -1,5 +1,5 @@
 {
-  "name": "antora-samples-template",
+  "name": "antora-demo-template",
   "version": "1.0.0",
   "description": "A barebones Antora template with sample pages demonstrating all AsciiDoc features",
   "keywords": [
@@ -9,10 +9,10 @@
     "template",
     "samples"
   ],
-  "homepage": "https://github.com/the-dev-center/antora-samples-template",
+  "homepage": "https://github.com/the-dev-center/antora-demo-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/the-dev-center/antora-samples-template.git"
+    "url": "https://github.com/the-dev-center/antora-demo-template.git"
   },
   "license": "MIT",
   "author": "The Dev Center",

@@ -60,8 +60,8 @@ Clone this repository and build with Antora:
 
 [source,bash]
 ----
-git clone https://github.com/the-dev-center/antora-samples-template.git
-cd antora-samples-template
+git clone https://github.com/the-dev-center/antora-demo-template.git
+cd antora-demo-template
 pnpm install
 pnpm build
 ----
