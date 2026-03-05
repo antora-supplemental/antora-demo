@@ -56,7 +56,7 @@ Use it as:
 
 [source,bash]
 ----
-git clone https://github.com/devcntr-app/antora-demo-template.git
+git clone https://github.com/asciidoc-supplemental/antora-demo-template.git
 cd antora-demo-template
 pnpm install
 pnpm build
@@ -131,4 +131,6 @@ This project is licensed under the MIT License.
 
 * {url-antora}[Antora Documentation]
 * {url-asciidoc}[AsciiDoc Language Documentation]
+
+
 
