@@ -9,10 +9,10 @@
     "template",
     "samples"
   ],
-  "homepage": "https://github.com/asciidoc-supplemental/antora-demo-template",
+  "homepage": "https://github.com/antora-supplemental/antora-demo-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/asciidoc-supplemental/antora-demo-template.git"
+    "url": "https://github.com/antora-supplemental/antora-demo-template.git"
   },
   "license": "MIT",
   "author": "The Dev Center",
