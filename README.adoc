@@ -1,15 +1,20 @@
-= Antora Samples Template
+= Antora Demo
 :toc: macro
 :toc-title: Contents
 :toclevels: 2
-:icons: font
 :url-antora: https://antora.org
 :url-asciidoc: https://asciidoc.org
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 
-A barebones Antora template with sample pages demonstrating all AsciiDoc features.
+A barebones Antora demo with sample pages demonstrating all AsciiDoc features.
 
-image::https://img.shields.io/badge/license-MIT-blue.svg[License: MIT]
-image::https://img.shields.io/badge/antora-3.x-purple.svg[Antora 3.x]
+image:https://img.shields.io/badge/license-MIT-blue.svg[License: MIT] image:https://img.shields.io/badge/antora-3.x-purple.svg[Antora 3.x]
 
 toc::[]
 
@@ -56,8 +61,8 @@ Use it as:
 
 [source,bash]
 ----
-git clone https://github.com/antora-supplemental/antora-demo-template.git
-cd antora-demo-template
+git clone https://github.com/antora-supplemental/antora-demo.git
+cd antora-demo
 pnpm install
 pnpm build
 ----
@@ -75,7 +80,7 @@ This builds the site and opens it in your browser at http://localhost:8080.
 
 [source]
 ----
-antora-demo-template/
+antora-demo/
 ├── docs/
 │   ├── antora.yml              # Component descriptor
 │   └── modules/ROOT/
