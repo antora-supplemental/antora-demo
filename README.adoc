@@ -1,9 +1,10 @@
-= Antora Demo
+ifndef::env-github[:icons: font]
 :toc: macro
 :toc-title: Contents
 :toclevels: 2
 :url-antora: https://antora.org
 :url-asciidoc: https://asciidoc.org
+:sectanchors:
 ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
@@ -11,14 +12,34 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
+endif::[]
+
+ifndef::env-github[]
+image:https://img.shields.io/github/contributors/antora-supplemental/antora-demo.svg?style=for-the-badge[Contributors,link=https://github.com/antora-supplemental/antora-demo/graphs/contributors]
+image:https://img.shields.io/github/forks/antora-supplemental/antora-demo.svg?style=for-the-badge[Forks,link=https://github.com/antora-supplemental/antora-demo/network/members]
+image:https://img.shields.io/github/stars/antora-supplemental/antora-demo.svg?style=for-the-badge[Stars,link=https://github.com/antora-supplemental/antora-demo/stargazers]
+image:https://img.shields.io/github/issues/antora-supplemental/antora-demo.svg?style=for-the-badge[Issues,link=https://github.com/antora-supplemental/antora-demo/issues]
+image:https://img.shields.io/github/license/antora-supplemental/antora-demo.svg?style=for-the-badge[License,link=https://github.com/antora-supplemental/antora-demo/blob/main/LICENSE]
+endif::[]
+
+ifdef::env-github[]
+image:https://img.shields.io/github/contributors/antora-supplemental/antora-demo.svg?style=for-the-badge[Contributors]
+image:https://img.shields.io/github/forks/antora-supplemental/antora-demo.svg?style=for-the-badge[Forks]
+image:https://img.shields.io/github/stars/antora-supplemental/antora-demo.svg?style=for-the-badge[Stars]
+image:https://img.shields.io/github/issues/antora-supplemental/antora-demo.svg?style=for-the-badge[Issues]
+image:https://img.shields.io/github/license/antora-supplemental/antora-demo.svg?style=for-the-badge[License]
+endif::[]
+
+= Antora Demo
+
+Barebones Antora site demonstrating AsciiDoc features. Samples and templates.
+
+link:https://github.com/antora-supplemental/antora-demo/issues[Report Bug] ·
+link:https://github.com/antora-supplemental/antora-demo/issues[Request Feature]
+
+== About The Project
 
 A barebones Antora demo with sample pages demonstrating all AsciiDoc features.
-
-image:https://img.shields.io/badge/license-MIT-blue.svg[License: MIT] image:https://img.shields.io/badge/antora-3.x-purple.svg[Antora 3.x]
-
-toc::[]
-
-== Overview
 
 This template provides a complete set of sample AsciiDoc pages covering every major documentation feature.
 Use it as:
@@ -130,7 +151,14 @@ ui:
 
 == License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See link:LICENSE[].
+
+== Contact
+
+Antora Supplemental — support@antora-supplemental.org
+
+* Project: https://github.com/antora-supplemental/antora-demo
+* Site: https://antora-supplemental.org
 
 == Resources
 
