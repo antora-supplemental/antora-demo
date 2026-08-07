@@ -14,21 +14,12 @@ ifdef::env-github[]
 endif::[]
 endif::[]
 
-ifndef::env-github[]
+[[readme-top]]
 image:https://img.shields.io/github/contributors/antora-supplemental/antora-demo.svg?style=for-the-badge[Contributors,link=https://github.com/antora-supplemental/antora-demo/graphs/contributors]
 image:https://img.shields.io/github/forks/antora-supplemental/antora-demo.svg?style=for-the-badge[Forks,link=https://github.com/antora-supplemental/antora-demo/network/members]
 image:https://img.shields.io/github/stars/antora-supplemental/antora-demo.svg?style=for-the-badge[Stars,link=https://github.com/antora-supplemental/antora-demo/stargazers]
 image:https://img.shields.io/github/issues/antora-supplemental/antora-demo.svg?style=for-the-badge[Issues,link=https://github.com/antora-supplemental/antora-demo/issues]
 image:https://img.shields.io/github/license/antora-supplemental/antora-demo.svg?style=for-the-badge[License,link=https://github.com/antora-supplemental/antora-demo/blob/main/LICENSE]
-endif::[]
-
-ifdef::env-github[]
-image:https://img.shields.io/github/contributors/antora-supplemental/antora-demo.svg?style=for-the-badge[Contributors]
-image:https://img.shields.io/github/forks/antora-supplemental/antora-demo.svg?style=for-the-badge[Forks]
-image:https://img.shields.io/github/stars/antora-supplemental/antora-demo.svg?style=for-the-badge[Stars]
-image:https://img.shields.io/github/issues/antora-supplemental/antora-demo.svg?style=for-the-badge[Issues]
-image:https://img.shields.io/github/license/antora-supplemental/antora-demo.svg?style=for-the-badge[License]
-endif::[]
 
 = Antora Demo
 
@@ -47,6 +38,8 @@ Use it as:
 * A reference for AsciiDoc syntax in Antora
 * A starting point for new documentation projects
 * A test suite for custom themes
+
+link:#readme-top[back to top]
 
 == Features Demonstrated
 
@@ -153,6 +146,8 @@ ui:
 
 This project is licensed under the MIT License. See link:LICENSE[].
 
+link:#readme-top[back to top]
+
 == Contact
 
 Antora Supplemental — support@antora-supplemental.org
@@ -160,10 +155,9 @@ Antora Supplemental — support@antora-supplemental.org
 * Project: https://github.com/antora-supplemental/antora-demo
 * Site: https://antora-supplemental.org
 
+link:#readme-top[back to top]
+
 == Resources
 
 * {url-antora}[Antora Documentation]
 * {url-asciidoc}[AsciiDoc Language Documentation]
-
-
-
