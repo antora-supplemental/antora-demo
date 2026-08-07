@@ -14,7 +14,53 @@ ifdef::env-github[]
 endif::[]
 endif::[]
 
-[[readme-top]]
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/antora-supplemental/antora-demo/graphs/contributors"><img src="https://img.shields.io/github/contributors/antora-supplemental/antora-demo.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/antora-supplemental/antora-demo/network/members"><img src="https://img.shields.io/github/forks/antora-supplemental/antora-demo.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/antora-supplemental/antora-demo/stargazers"><img src="https://img.shields.io/github/stars/antora-supplemental/antora-demo.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/antora-supplemental/antora-demo/issues"><img src="https://img.shields.io/github/issues/antora-supplemental/antora-demo.svg?style=for-the-badge" alt="Issues"></a>
+<a href="https://github.com/antora-supplemental/antora-demo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/antora-supplemental/antora-demo.svg?style=for-the-badge" alt="License"></a>
+<br />
+<h3 align="center">Antora Demo</h3>
+<p align="center">
+Barebones Antora site demonstrating AsciiDoc features. Samples and templates.
+<br /><br />
+<a href="https://github.com/antora-supplemental/antora-demo/issues">Report Bug</a>
+&middot;
+<a href="https://github.com/antora-supplemental/antora-demo/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
+
+ifndef::env-github[]
+
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/antora-supplemental/antora-demo/graphs/contributors"><img src="https://img.shields.io/github/contributors/antora-supplemental/antora-demo.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/antora-supplemental/antora-demo/network/members"><img src="https://img.shields.io/github/forks/antora-supplemental/antora-demo.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/antora-supplemental/antora-demo/stargazers"><img src="https://img.shields.io/github/stars/antora-supplemental/antora-demo.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/antora-supplemental/antora-demo/issues"><img src="https://img.shields.io/github/issues/antora-supplemental/antora-demo.svg?style=for-the-badge" alt="Issues"></a>
+<a href="https://github.com/antora-supplemental/antora-demo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/antora-supplemental/antora-demo.svg?style=for-the-badge" alt="License"></a>
+<br />
+<h3 align="center">Antora Demo</h3>
+<p align="center">
+Barebones Antora site demonstrating AsciiDoc features. Samples and templates.
+<br /><br />
+<a href="https://github.com/antora-supplemental/antora-demo/issues">Report Bug</a>
+&middot;
+<a href="https://github.com/antora-supplemental/antora-demo/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
+
+ifndef::env-github[]
 image:https://img.shields.io/github/contributors/antora-supplemental/antora-demo.svg?style=for-the-badge[Contributors,link=https://github.com/antora-supplemental/antora-demo/graphs/contributors]
 image:https://img.shields.io/github/forks/antora-supplemental/antora-demo.svg?style=for-the-badge[Forks,link=https://github.com/antora-supplemental/antora-demo/network/members]
 image:https://img.shields.io/github/stars/antora-supplemental/antora-demo.svg?style=for-the-badge[Stars,link=https://github.com/antora-supplemental/antora-demo/stargazers]
@@ -27,6 +73,7 @@ Barebones Antora site demonstrating AsciiDoc features. Samples and templates.
 
 link:https://github.com/antora-supplemental/antora-demo/issues[Report Bug] ·
 link:https://github.com/antora-supplemental/antora-demo/issues[Request Feature]
+endif::[]
 
 == About The Project
 
@@ -39,8 +86,9 @@ Use it as:
 * A starting point for new documentation projects
 * A test suite for custom themes
 
-link:#readme-top[back to top]
-
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
 == Features Demonstrated
 
 [cols="1,2"]
@@ -146,8 +194,9 @@ ui:
 
 This project is licensed under the MIT License. See link:LICENSE[].
 
-link:#readme-top[back to top]
-
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
 == Contact
 
 Antora Supplemental — support@antora-supplemental.org
@@ -155,8 +204,9 @@ Antora Supplemental — support@antora-supplemental.org
 * Project: https://github.com/antora-supplemental/antora-demo
 * Site: https://antora-supplemental.org
 
-link:#readme-top[back to top]
-
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
 == Resources
 
 * {url-antora}[Antora Documentation]
